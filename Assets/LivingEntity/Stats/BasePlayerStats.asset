@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241d0132cd5d84c239689aef657b2a46, type: 3}
+  m_Name: BasePlayerStats
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  baseHealth: 100
+  baseRegen: 2
+  moveSpeed: 0.1
+  model: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  modelOffset: {x: 0, y: 0.5, z: 0}
+  name: 

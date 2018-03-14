@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a54c96dbc67346bb8317ae8eb9a8ab0, type: 3}
+  m_Name: BlossomGardenLevel
+  m_EditorClassIdentifier: 
+  levelName: Cherry Blossom Forest
+  map: {fileID: 11400000, guid: 19c08f41e114442fea87178530e0bdf8, type: 2}
+  possibleSquads:
+  - rangedEnemies:
+    - baseStats: {fileID: 11400000, guid: 4fdef36f6d78d42869dcbbba437a5e02, type: 2}
+      enemyStats: {fileID: 11400000, guid: 186d8542008a24ed59fd9b610edd7edc, type: 2}
+      rangedStats: {fileID: 11400000, guid: e6d1d092611a34493973b8b1e968b437, type: 2}
+      amount: 3
+    - baseStats: {fileID: 11400000, guid: 104ef8b1ef8f344efb390748b2431697, type: 2}
+      enemyStats: {fileID: 11400000, guid: e90e20b64584e4c50b57eec30cc43197, type: 2}
+      rangedStats: {fileID: 11400000, guid: a1901c011c1394701ad8ac3ccc5bbbdf, type: 2}
+      amount: 3
+    - baseStats: {fileID: 11400000, guid: d7a10713061024dfc94fc2a82eb3abdc, type: 2}
+      enemyStats: {fileID: 11400000, guid: 8b42d7de6e79b43128574b4cb977d894, type: 2}
+      rangedStats: {fileID: 11400000, guid: 3a9edad2551204d25a69ac0707a93288, type: 2}
+      amount: 3
+    meleeEnemies: []
+    rangedPool: {fileID: 0}
+    meleePool: {fileID: 0}
+    chanceProgression:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+  targetObjective: {fileID: 1233698792187654, guid: 70f3923b1ac854b8481dfeab1362bea0,
+    type: 2}
+  levelMusic: {fileID: 11400000, guid: 8f54830dca7084ea6927c9861cf52c01, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a68694595cca49b83905f87bb16cf, type: 3}
+  m_Name: TurrentShootState
+  m_EditorClassIdentifier: 
+  lastAction: {fileID: 11400000, guid: e2932249a2a0e456c9aa1fac49da926e, type: 2}
+  firstAction: {fileID: 11400000, guid: 7323240e11ff74e9e8f2a1662bb6c373, type: 2}
+  actions:
+  - {fileID: 11400000, guid: e0a47ebcf73528c47b063b68e4271d57, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 0d2be955bcbaa2f41b8adfce6815321e, type: 2}
+    trueState: {fileID: 11400000}
+    falseState: {fileID: 11400000, guid: 169fbce9ffaf646dca5635185c6b13a3, type: 2}
+  aggro: {fileID: 11400000, guid: 836d323995de1274a8b9e75e971afa43, type: 2}
+  sceneGizmoColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a07cfde330ddb64aa8007890df01f97, type: 3}
+  m_Name: TempUltraRare
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 99a894cd6f30d60438d565cad09bebbc, type: 2}
+  - {fileID: 11400000, guid: 1c211e56821507a4c8b013255b13a587, type: 2}
+  - {fileID: 11400000, guid: 3ef8bcd802c636c428f951d55c706be6, type: 2}

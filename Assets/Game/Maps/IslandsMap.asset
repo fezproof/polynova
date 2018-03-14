@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7b7a410e73e4f84bd7f490e0bcd272, type: 3}
+  m_Name: IslandsMap
+  m_EditorClassIdentifier: 
+  levelWidth: 100
+  levelHeight: 100
+  wallHeight: -2
+  wallLimit: 0.6
+  tileSize: 3
+  scale: 10
+  octaves: 4
+  lacunarity: 3
+  persistance: 0.3
+  heightMultiplier:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  wallMaterial: {fileID: 2100000, guid: 0cecc6b81268c4da1b4a7ee24f1028b9, type: 2}
+  possibleTerrain:
+  - terrainColour: {r: 0, g: 0.42068958, b: 1, a: 0}
+    terrainMaterial: {fileID: 2100000, guid: a42533c9ecb1a404283a02aa00581b6a, type: 2}
+    height: 0.35
+  - terrainColour: {r: 0.3455882, g: 0.8104462, b: 1, a: 0}
+    terrainMaterial: {fileID: 2100000, guid: 9fc091981e87572409f2d0d47bbe8b97, type: 2}
+    height: 0.5
+  - terrainColour: {r: 0.9705882, g: 0.9573976, b: 0.49243078, a: 0}
+    terrainMaterial: {fileID: 2100000, guid: 545e20231ef2e4a0c9778727fef0683a, type: 2}
+    height: 0.7
+  - terrainColour: {r: 0.22310069, g: 0.8602941, b: 0.1707937, a: 0}
+    terrainMaterial: {fileID: 2100000, guid: cfd96a78f9806eb4f859be0d91884e4b, type: 2}
+    height: 1
+  possibleObjects: []
+  lightOptions:
+    angle: {x: 50, y: -30, z: 0}
+    intensity: 0.9
+    lightColour: {r: 1, g: 0.97099394, b: 0.8088235, a: 0}
+  postProcProfile: {fileID: 11400000, guid: 679ab78f98b54467a9c54b64cf8ae8b1, type: 2}

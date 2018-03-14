@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1534e0be488f969489f256424a0dd93b, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: 
+  gunName: Basic Gun
+  damage: 10
+  bulletSpeed: 10
+  shotDelay: 0.5
+  nextShotTime: 0
+  bullet: {fileID: 114507819685254640, guid: 58642614e40dd42bd9aed322e19494c2, type: 2}
+  triggerDown: 1
+  gun: {fileID: 0}
+  bulletColour: {r: 0, g: 0, b: 1, a: 1}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7276b1798d454c8da3edf6da68a9907, type: 3}
+  m_Name: Basic Player
+  m_EditorClassIdentifier: 
+  gun: {fileID: 11400000, guid: ca439f9aee489824ba51a0c5d5a53fdc, type: 2}
+  ablities:
+  - {fileID: 11400000, guid: ca8b7ec45b850f745af8764ae61987cb, type: 2}
+  - {fileID: 11400000, guid: de9606cbef6d1ac47ad8fab14c6732a7, type: 2}
